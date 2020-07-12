@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { DirectoryMenu } from './directory-menu.component';
+import Directory from '../../components/directory/directory.component';
 
 import './homepage.styles.scss';
 
 export const Homepage = () => (
     <div className="homepage">
-        <DirectoryMenu />
+        <Directory />
     </div>
 );
